@@ -1,6 +1,6 @@
 cask "curtain" do
-  version "1.0.33"
-  sha256 "dff2324a76df461a1520d0576bedad5daf1372fae30c094395f471682150708f"
+  version "1.0.39"
+  sha256 "1dda2d7ac25848d5fdf4e3df644204f673a5fe4e84acf6817e6673373115f50f"
 
   url "https://github.com/box-kr/curtain/releases/download/v#{version}/Curtain-#{version}.zip"
   name "Curtain"
