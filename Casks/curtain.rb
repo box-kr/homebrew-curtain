@@ -1,6 +1,6 @@
 cask "curtain" do
-  version "1.0.43"
-  sha256 "889ad57e4a54ee69093b57d1f3bf8c46c6f8869707599eefe287113434de84e5"
+  version "1.0.66"
+  sha256 "8a1279bd0912c296b62dd424e401efa3ff9c6527ff0683fed45e7dda29c88c1c"
 
   url "https://github.com/box-kr/curtain/releases/download/v#{version}/Curtain-#{version}.zip"
   name "Curtain"
@@ -18,6 +18,6 @@ cask "curtain" do
   end
 
   zap trash: [
-    "~/Library/Preferences/kr.box.funbox.macos.curtain.plist",
+    "~/Library/Preferences/kr.box.apps.macos.curtain.plist",
   ]
 end
